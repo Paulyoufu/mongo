@@ -1,8 +1,5 @@
-Template.postsList.helpers({
-    posts: function() {
-        return Posts.find();
+Template.books.helpers({
+    books: function() {
+        return Books.find();
     }
-});
-Template.postsList.helpers({
-    posts: postsData
 });
